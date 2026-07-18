@@ -1,0 +1,33 @@
+# Virtual environment
+venv1/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# ChromaDB (rebuilt by running llm/rag.py)
+data/chroma_db/
+
+# Ollama models
+*.gguf
+*.bin
+
+# Large generated files (rebuilt by running main.py)
+data/logs/
+data/processed/
+results/plots/
+results/animation/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

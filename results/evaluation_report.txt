@@ -1,0 +1,29 @@
+TrafficPulse — Evaluation Report
+==================================================
+
+SUMMARY
+--------------------------------------------------
+Average wait time improvement : 9.7%
+Maximum wait time improvement : 32.4%
+Additional cars served        : +1.4%
+INT_2 bottleneck improvement  : 28.6%
+
+METHODOLOGY
+--------------------------------------------------
+Both agents ran on identical simulation conditions:
+  Same random seed (42)
+  Same arrival rates
+  Same network topology
+  Same simulation duration (24 hours)
+
+Fixed Timer: 30s green per phase, fixed cycle
+Adaptive Agent: ML-informed phase selection
+  Random Forest (100 trees, max_depth=10)
+  4-level tie-breaking policy
+  Green time: base + load bonus (max 10s extra)
+
+INTERSECTION RESULTS
+--------------------------------------------------
+INT_1: 7.449s → 7.960s (+6.9%)
+INT_2: 10.226s → 7.300s (-28.6%)
+INT_3: 7.775s → 7.713s (-0.8%)
