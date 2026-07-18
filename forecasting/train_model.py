@@ -31,6 +31,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from simulation.config import BASE_DIR
 
+import warnings
+warnings.filterwarnings('ignore', category=UserWarning)
+
 # paths
 PROCESSED_DIR  = os.path.join(BASE_DIR, 'data', 'processed')
 FEATURES_FILE  = os.path.join(PROCESSED_DIR, 'features.csv')
