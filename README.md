@@ -199,21 +199,6 @@ Why does INT_2 always get priority when there's a tie?
 
 ---
 
-## HSBI Research Project Connections
-
-This project was built as a portfolio demonstration for HSBI Research Master projects:
-
-**Project 2 — Learning Digital Twins**
-Demonstrates: discrete-event simulation, process mining, ML-based system learning
-
-**Project 13 — AI Production Control**
-Demonstrates: AI agent for resource control via digital twin, 4-level tie-breaking policy
-
-**Project 12 — Simulation Copilot**
-Demonstrates: LLM tool-calling, RAG pipeline, natural language interface over simulation data
-
----
-
 ## License
 
 MIT License — free to use and modify.
